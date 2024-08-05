@@ -1,10 +1,9 @@
-<h1>welcome page</h1>
+<div>
+    <span class="{{$class}}">{{$msg}}</span>
+  
+</div>
 
-<x-message-banner  msg="login Successfully" class="success"/> <br><br>
-<x-message-banner  msg="Password not correct" class="error"/> <br><br>
-<x-message-banner  msg="don't use this type email " class="warning"/> <br><br>
-
-<!-- <style>
+<style>
     .success{
         background: lightgreen;
         color: white;
@@ -27,4 +26,4 @@
         margin: 10px;
 
     }
-</style> -->
+</style>
